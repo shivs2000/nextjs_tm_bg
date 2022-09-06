@@ -1,0 +1,20 @@
+.nav {
+  height: 50px;
+  padding: 10px;
+  background: rgb(112, 193, 211);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav ul li a {
+  margin: 5px 30px;
+}
