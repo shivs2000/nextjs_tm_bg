@@ -1,13 +1,15 @@
-import Head from "next/head";
+import React from "react";
 
-export default function Home() {
+const about = () => {
   return (
     <div>
       <Head>
         <title>dev Newz</title>
         <meta name="keywords" content="web developement programming"></meta>
       </Head>
-      <h1>Welcome to nextjs</h1>
+      <h1>about </h1>
     </div>
   );
-}
+};
+
+export default about;
